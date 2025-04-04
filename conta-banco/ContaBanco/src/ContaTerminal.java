@@ -12,7 +12,7 @@
  * - Validação de entrada para garantir valores corretos
  * - Exibição de mensagem formatada ao usuário
  * 
- * Autor: [Seu Nome]
+ * Autor: Taynara Pereira
  */
 import java.util.Scanner;
 import java.text.DecimalFormat;
