@@ -1,3 +1,19 @@
+/**
+ * Projeto ContaBanco
+ * 
+ * Este projeto é um programa em Java que simula a criação de uma conta bancária
+ * através da interação com o usuário no terminal. O sistema solicita que o usuário
+ * insira dados como número da agência, número da conta, nome do cliente e saldo inicial.
+ * Após a inserção dos dados, o programa exibe uma mensagem confirmando a criação da conta,
+ * informando os detalhes inseridos e disponibilizando o saldo para saque.
+ * 
+ * Funcionalidades principais:
+ * - Entrada de dados via terminal com a classe Scanner
+ * - Validação de entrada para garantir valores corretos
+ * - Exibição de mensagem formatada ao usuário
+ * 
+ * Autor: [Seu Nome]
+ */
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
