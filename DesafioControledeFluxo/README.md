@@ -1,18 +1,27 @@
-## Getting Started
+# 📘 DesafioControleFluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido como parte do exercício de fixação sobre **Controle de Fluxo em Java**, com o objetivo de praticar o uso de estruturas condicionais, laços de repetição e tratamento de exceções.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📌 Objetivo do Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Criar um programa em Java que:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Receba **dois números inteiros** como entrada do usuário.
+2. Calcule a **quantidade de interações** entre esses dois números.
+3. Imprima no console uma contagem de `1` até a diferença entre os dois números.
+4. Lance uma **exceção personalizada** caso o primeiro número seja maior que o segundo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🧠 Regras de Negócio
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Parâmetro 1** deve ser menor que o **Parâmetro 2**.
+- Caso contrário, o programa lança uma exceção personalizada chamada `ParametrosInvalidosException` com a mensagem:
+
+> "O segundo parâmetro deve ser maior que o primeiro"
+
+---
+
+## 🧩 Estrutura do Projeto
